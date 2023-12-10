@@ -1,3 +1,12 @@
+/*
+ TODO 008 第一段Java代码
+ 程序员-输入源代码(.java)-编译器(javac)-字节码-JVM
+   字节码+JVM=JRE
+   源代码+编译器+JRE=JDK
+ OS-CPU-内存&磁盘
+ TODO 009 第一段Java代码解析
+*/
+
 package chapter01_helloworld;
 
 public class Java01_HelloWorld {
