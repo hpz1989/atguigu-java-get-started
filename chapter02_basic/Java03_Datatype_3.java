@@ -1,7 +1,17 @@
+/*
+  TODO 016 基础语法 数据类型 引用数据类型
+ */
+
 package chapter02_basic;
 
 public class Java03_Datatype_3 {
     public static void main(String[] args) {
+
+        // TODO 引用数据类型
+        // 所谓的引用数据类型，其实就是可以被引用的数据类型
+        String info = "abc";
+
+        int i = 10;
 
         // TODO byte和char的关系
 

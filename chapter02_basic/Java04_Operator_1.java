@@ -1,10 +1,14 @@
+/*
+  TODO 020 基础语法 运算符 赋值运算符
+ */
+
 package chapter02_basic;
 
 public class Java04_Operator_1 {
     public static void main(String[] args) {
 
         // TODO 运算符 - 赋值运算符
-        // 等号其实就是赋值运算符：将等号右边表达式的结果赋值给等号左边的变量
+        //  等号其实就是赋值运算符：将等号右边表达式的结果赋值给等号左边的变量
         // 赋值运算符需要考虑类型的关系
 //        String name = "zhangsan";
 //        byte b = 10;
@@ -21,7 +25,7 @@ public class Java04_Operator_1 {
 
         byte b1 = 10;
         //b1 = b1 + 20; // int => byte
-        b1 += 20;
+        b1 += 20; // 隐性强转
 
         System.out.println(b1);
 

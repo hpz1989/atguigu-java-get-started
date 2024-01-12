@@ -1,3 +1,7 @@
+/*
+  TODO 014 基础语法 数据类型 基本数据类型
+ */
+
 package chapter02_basic;
 
 public class Java03_Datatype_1 {
@@ -15,7 +19,7 @@ public class Java03_Datatype_1 {
         // long ： 64位
         long lon = 10;
 
-        // TODO 2. 浮点类型：含有小数点得数据类型
+        // TODO 2. 浮点类型：含有小数点的数据类型
         // 根据计算精度分为
         // 默认情况下，小数点得数据会被识别位精度较高得双精度double类型
         // float : 单精度浮点类型,数据需要使用F(f)结尾
@@ -24,7 +28,8 @@ public class Java03_Datatype_1 {
         double d = 2.0;
 
         // TODO 3. 字符类型
-        // 所谓得字符类型，其实就是使用符号标识文字内容
+        // 所谓得字符类型，其实就是使用符号标识文字内容，单引号表示
+        // 字符和字符串对比，字符是单元素
         char c = '@';
 
         // TODO 4. 布尔类型

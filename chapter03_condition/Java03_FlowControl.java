@@ -1,11 +1,15 @@
+/*
+ TODO TODO 029 基础语法 流程控制 分支执行 特殊多分支
+ */
+
 package chapter03_condition;
 
 public class Java03_FlowControl {
     public static void main(String[] args) {
 
         // TODO 流程控制 - 分支执行
-        // 特殊的分支结构
-        // switch ( 数据 ) {}
+        //  特殊的分支结构
+        //  switch ( 数据 ) {}
         // switch语法会对数据进行判断，如果等于某一个分支数据的值，那么执行对应分支的逻辑代码
         // 如果一个分支都无法匹配，那么一个分支都不会执行，如果想要无法匹配也需要执行分支，那么可以增加default关键字
         // 如果执行某一个分支后，不想继续执行其他分支，那么可以使用break关键字，跳出分支结构

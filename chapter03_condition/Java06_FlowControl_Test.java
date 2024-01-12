@@ -1,3 +1,7 @@
+/*
+ TODO 035 基础语法 流程控制 重复执行 小练习 九层妖塔
+ */
+
 package chapter03_condition;
 
 public class Java06_FlowControl_Test {
@@ -47,7 +51,7 @@ public class Java06_FlowControl_Test {
         // 2 -> 5
         // 3 -> 7
         // 4 -> 9
-        int level = 3;
+        int level = 9;
         for ( int j = 0; j < level; j++ ) {
             for ( int i = 0; i < (level-1) - j; i++ ) {
                 System.out.print(" ");

@@ -1,3 +1,16 @@
+/*
+  TODO 017 基础语法 运算符 介绍
+  算术运算符
+  赋值运算符
+  关系运算符
+  逻辑运算符
+  三元运算符
+
+  TODO 018 基础语法 运算符 算术运算符 二元运算符
+
+  TODO 019 基础语法 运算符 算术运算符 一元运算符
+ */
+
 package chapter02_basic;
 
 public class Java04_Operator {
@@ -10,41 +23,41 @@ public class Java04_Operator {
         // 所谓得表达式就是采用运算符和数据连接在一起形成符合Java语法规则得指令代码，称之为表达式
 
         // TODO 算术运算符
-        // 1. 二元运算符 ： 两个元素参与运算得运算符， 1 + 2
+        // TODO 1. 二元运算符 ： 两个元素参与运算得运算符， 1 + 2
         //   TODO 算术表达式 = 元素1 二元运算符  元素2
         // 这个表达式是有结果得，就需要有类型，这里得类型是元素种类型最大的那一种, 最小使用的类型为int类型
-//        System.out.println(1 + 2); // 3
-//        System.out.println(2 - 2); // 0
-//        System.out.println(3 * 2); // 6
-//        System.out.println(4 / 2); // 2
-//        System.out.println(1 / 2); // 0.5 （int, int） => int
-//        System.out.println(1.0 / 2); // 0.5 （double, int） => double
-//        System.out.println(5 % 2); // 1 (取余，模运算)
+        System.out.println(1 + 2); // 3
+        System.out.println(2 - 2); // 0
+        System.out.println(3 * 2); // 6
+        System.out.println(4 / 2); // 2
+        System.out.println(1 / 2); // 0.5 （int, int） => int 实际上结果为0
+        System.out.println(1.0 / 2); // 0.5 （double, int） => double
+        System.out.println(5 % 2); // 1 (取余，模运算)
 
-//        byte b1 = 10;
-//        byte b2 = 20;
-//        byte b3 = (byte)(b1 + b2); // (int, int) => int
+        byte b1 = 10;
+        byte b2 = 20;
+        byte b3 = (byte)(b1 + b2); // (int, int) => int
 
-        //System.out.println( 1 + 2 * 3 ); // 7
-       // System.out.println( (1 + 2) * 3 ); // 9
+        System.out.println( 1 + 2 * 3 ); // 7
+        System.out.println( (1 + 2) * 3 ); // 9
 
-        // 2. 一元运算符 ： 一个元素参与运算得运算符
+        // TODO 2. 一元运算符 ： 一个元素参与运算得运算符
         // ++, --
         // ++ 运算符的本质其实就是加1操作的简化版本，自增运算符
         // ++ 运算符的本质其实就是减1操作的简化版本，自减运算符
-//        int i = 0;
-//        //int j = i; // j = 0
-//        //i = i + 1; // i = 1
-//        int j = i++;
-//        System.out.println("i = " + i);
-//        System.out.println("j = " + j);
+        // int i = 0;
+        // int j = i; // j = 0
+        // i = i + 1; // i = 1
+        // int j = i++;
+        // System.out.println("i = " + i);
+        // System.out.println("j = " + j);
 
 //        int i = 0;
 //        i = i + 1; // i = 1
 //        int j = i; // j = 1
 //        int j = ++i;
-//        System.out.println("i = " + i);
-//        System.out.println("j = " + j);
+        // System.out.println("i = " + i);
+        // System.out.println("j = " + j);
 
 //        int i = 1;
 ////        int j = i; // j = 1

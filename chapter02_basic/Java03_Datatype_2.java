@@ -1,3 +1,7 @@
+/*
+  TODO 015 基础语法 数据类型 数据类型之间的转换
+ */
+
 package chapter02_basic;
 
 public class Java03_Datatype_2 {
@@ -9,9 +13,11 @@ public class Java03_Datatype_2 {
         int age = 30;
 
         name = "lisi";
+        // 类型直接指向另一数据类型不被允许
         //name = age;
 
         // byte -> short -> int -> long -> float -> double
+        // 浮点类型要比整数类型大，可以直接转换
         byte b = 10;
 
         short s = b;
