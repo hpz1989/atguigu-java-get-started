@@ -25,6 +25,8 @@ replay_pid*
 
 # IDEA file
 .idea/
+*.iml
+
 
 # out directory
 out/
